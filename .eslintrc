@@ -1,0 +1,76 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es6": true
+  },
+  "plugins": [
+    "import",
+    "jsx-a11y",
+    "prettier",
+    "eslint-plugin-prettier"
+  ],
+  "extends": [
+    "react-app",
+    "eslint:recommended",
+    "prettier",
+    "plugin:prettier/recommended",
+    "prettier/react",
+    "eslint-config-prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": "warn",
+    "no-eval": "error",
+    "import/first": "error",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "prettier/prettier": 0,
+    "max-len": [
+      "error",
+      {
+        "code": 100
+      }
+    ],
+    "indent": [
+      "error",
+      "tab"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "react/jsx-closing-bracket-location": [
+      1,
+      "line-aligned"
+    ],
+    "arrow-parens": [
+      "error",
+      "as-needed"
+    ],
+    "linebreak-style": 0
+  }
+}
+/* "plugin:jsx-a11y/recommended",*/
