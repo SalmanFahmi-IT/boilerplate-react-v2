@@ -9,7 +9,7 @@
     "formik": "^2.1.4",
     "immutable": "^4.0.0-rc.12",
     "js-base64": "^2.5.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "primeicons": "^2.0.0",
     "primereact": "^4.0.0",
