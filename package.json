@@ -10,7 +10,7 @@
     "immutable": "^4.0.0-rc.12",
     "js-base64": "^2.5.2",
     "lodash": "^4.17.11",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "primeicons": "^2.0.0",
     "primereact": "^4.0.0",
     "react": "^16.8.0",
